@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "esnext",
+      "jsx": "react", // 或者 "react-jsx" 如果你使用的是较新的TypeScript版本
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true
+    },
+    "include": [
+      "src/**/*"
+    ]
+}
